@@ -1,0 +1,25 @@
+# Secrets and local environments
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Experiment output and temporary data
+results/
+*.duckdb
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+pipeline.log
+
+# LangGraph and editor files
+.langgraph_api/
+.idea/
+.vscode/
+.DS_Store
